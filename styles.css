@@ -84,6 +84,7 @@
     align-items: center;
     gap: var(--size-half);
 }
+
 .main-footer-credits {
     display: flex;
     align-items: center;
@@ -99,4 +100,13 @@
 
 .main-footer-credits {
     justify-content: space-between;
+}
+
+.main-footer-links {
+    display: flex;
+    gap: var(--size-1);
+}
+
+.main-footer-links>a {
+    color: var(--temptress);
 }
