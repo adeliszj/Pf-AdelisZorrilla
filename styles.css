@@ -82,6 +82,7 @@
 /* Main footer */
 .main-footer {
     background: var(--vanilla-ice);
+    padding: var(--size-4) 0;
     margin: var(--size-4) 0 0;
 }
 
