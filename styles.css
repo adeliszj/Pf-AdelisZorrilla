@@ -68,7 +68,8 @@
 }
 
 .main-content-carousel-item-image {
-    width: calc(var(--size-1) * 30);
+    border-radius: var(--size-2);
+    width: calc(var(--size-1) * 26);
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
@@ -179,4 +180,27 @@
     .contact-form-image {
         display: block;
     }
+}
+
+.main-content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--size-4);
+    padding: var(--size-4);
+    overflow-x: scroll;
+}
+
+.main-content-grid-item {
+    width: calc(var(--size-1)* 30);
+    text-align: center;
+}
+
+.main-content-grid-item-image {
+    width: 100%;
+    border-radius: var(--size-2);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: var(--size-1);
 }
